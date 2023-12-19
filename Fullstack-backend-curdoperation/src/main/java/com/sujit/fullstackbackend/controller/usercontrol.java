@@ -56,7 +56,7 @@ public class usercontrol {
 			throw new UserNotFoundException(id);
 		}
 		userRepository.deleteById(id);
-		return "User with id "+id+ " has deleted";
+		return "User with id "+id+ " has Deleted";
 	}
 	
 }
